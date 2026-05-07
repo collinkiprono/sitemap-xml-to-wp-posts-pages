@@ -1,0 +1,46 @@
+/* Basic styling for the plugin's admin page */
+.sxtpp-spinner {
+    vertical-align: middle;
+    visibility: hidden; /* Hidden by default, shown via JS */
+}
+
+/* Spinner visible state */
+.sxtpp-spinner.is-active {
+    visibility: visible;
+}
+
+#sxtpp-messages {
+    margin-top: 15px;
+}
+
+/* Style for success and error messages */
+.sxtpp-message.notice {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.sxtpp-message.notice-success {
+    border-color: #46b450;
+}
+
+.sxtpp-message.notice-error {
+    border-color: #dc3232;
+}
+
+#sxtpp-scan-results {
+    margin-top: 30px;
+}
+
+#sxtpp-scan-results .tablenav.top,
+#sxtpp-scan-results .tablenav.bottom {
+    clear: both;
+    margin-top: 10px;
+}
+
+#sxtpp-scan-results .column-url {
+    font-size: 0.9em;
+    color: #666;
+    word-break: break-all;
+}
